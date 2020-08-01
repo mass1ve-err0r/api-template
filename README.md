@@ -39,10 +39,10 @@ export const schema = {
 ```
 
 ### Appendix B: Safety + Comments
-- __PLEASE USE A STRONG JWT_SECRET__
+- __PLEASE USE A STRONG JWT_SECRET !!!__
 - The included gitignore should cover you
 	- macOS, Windows, Linux, Node, dotenv, JeBrains IDEs (all), VisualStudioCode
-- I'm _not_ a TS expert mself but why not share something useful even if minimal
+- I'm _not_ a TS expert myself but why not share something useful, even if minimal
 
 
 ## License
