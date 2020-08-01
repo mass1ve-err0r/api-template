@@ -1,0 +1,28 @@
+{
+  "name": "api-template",
+  "version": "1.0.0",
+  "description": "Template to create an API with TypeScript, Express, MongoDB and JWT.",
+  "main": "server.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node .",
+    "dev": "ts-node-dev src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Saadat M. Baig",
+  "license": "MIT",
+  "dependencies": {
+    "@types/body-parser": "^1.19.0",
+    "@types/express": "^4.17.7",
+    "@types/helmet": "0.0.47",
+    "@types/jsonwebtoken": "^8.5.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "helmet": "^3.23.3",
+    "jsonwebtoken": "^8.5.1",
+    "ts-dotenv": "^0.8.1",
+    "ts-node": "^8.10.2",
+    "ts-node-dev": "^1.0.0-pre.56",
+    "typescript": "^3.9.7"
+  }
+}
